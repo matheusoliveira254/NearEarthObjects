@@ -55,7 +55,7 @@ class NearEarthObjectController {
                 }
                 completionHandler(tempNeoArray)
             }
-        }
+        }.resume()
     }
-    
+
 }//End of Class
